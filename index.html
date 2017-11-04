@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>NBA FANS QUIZ</title>
+<link href ="assets/css/style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "assets/javascript/app.js"></script>
+
+</head>
+
+
+<body>
+<div id="h1">
+	<h1>NBA FANS QUIZ</h1>
+</div>
+<div id="timer">
+	<span id="countdown" class="timer"></span>
+</div>
+
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">Michael Jordan was drafted third overall in 1984. Which two players were selected ahead of him?</p>
+<input type = "radio" id = "mc" name = "question1" value = "Hakeem Olajuwon & Sam Bowie"> Hakeem Olajuwon & Sam Bowie<br>
+<input type = "radio" id = "mc" name = "question1" value = "Patrick Ewing & Hakeem Olajuwon"> Patrick Ewing & Hakeem Olajuwon<br>
+<input type = "radio" id = "mc" name = "question1" value = "Charles Barkley & Hakeem Olajuwon"> Charles Barkley & Hakeem Olajuwon<br>
+<input type = "radio" id = "mc" name = "question1" value = "Karl Malone & Sam Bowie"> Karl Malone & Sam Bowie<br>
+
+<p class = "questions">Who is the only coach to win both a NCAA and NBA championship?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Rick Pitino"> Rick Pitino<br>
+<input type = "radio" id = "mc" name = "question2" value = "Larry Brown"> Larry Brown<br>
+<input type = "radio" id = "mc" name = "question2" value = "Chuck Daly"> Chuck Daly<br>
+<input type = "radio" id = "mc" name = "question2" value = "John Calipari"> John Calipari<br>
+
+<p class = "questions">Who was the first African American to play in an NBA game?</p>
+<input type = "radio" id = "mc" name = "question3" value = "Earl Lloyd"> Earl Lloyd<br>
+<input type = "radio" id = "mc" name = "question3" value = "Sam Jones"> Sam Jones<br>
+<input type = "radio" id = "mc" name = "question3" value = "Wilt Chamberlain"> Wilt Chamberlain<br>
+<input type = "radio" id = "mc" name = "question3" value = "Bill Russell"> Bill Russell<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+</div>
+</html>
+</body>
